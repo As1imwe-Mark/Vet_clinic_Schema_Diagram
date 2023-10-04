@@ -1,12 +1,20 @@
 CREATE TABLE patients(
-  id INT GENERATED ALWAYS AS IDENTITY,
-  name VARCHAR(100),
-  date_of_birth DATE,
-  PRIMARY KEY(id)
+    id INT GENERATED ALWAYS AS IDENTITY,
+    name VARCHAR(100),
+    date_of_birth DATE,
+    PRIMARY KEY(id)
 );
+
 CREATE TABLE treatments(
-  id INT GENERATED ALWAYS AS IDENTITY,
-  name VARCHAR(100),
-  type VARCHAR(255),
-  PRIMARY KEY(id)
+    id INT GENERATED ALWAYS AS IDENTITY,
+    name VARCHAR(100),
+    type VARCHAR(255),
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE medical_histories(
+    id INT GENERATED ALWAYS AS IDENTITY,
+    addmitted_at TIMESTAMP,
+    status VARCHAR(100) patient_id INT REFERENCES patients(id),
+    PRIMARY KEY(id)
 );
