@@ -107,8 +107,8 @@ You can deploy this project using github page deployment.
 - LinkedIn: 
 
 👤 **Zabi Noori**
-- GitHub: 
-- LinkedIn: 
+- GitHub: [zabi] (https://github.com/ZabihullahNooriWardak)
+- LinkedIn: [zaibh] (https://www.linkedin.com/in/zabih-noori-aa59a924a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
