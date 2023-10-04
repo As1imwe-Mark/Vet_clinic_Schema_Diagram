@@ -1,0 +1,12 @@
+CREATE TABLE patients(
+  id INT GENERATED ALWAYS AS IDENTITY,
+  name VARCHAR(100),
+  date_of_birth DATE,
+  PRIMARY KEY(id)
+);
+CREATE TABLE treatments(
+  id INT GENERATED ALWAYS AS IDENTITY,
+  name VARCHAR(100),
+  type VARCHAR(255),
+  PRIMARY KEY(id)
+);
