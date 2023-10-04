@@ -116,7 +116,7 @@ You can deploy this project using github page deployment.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add Categories**
+- [ ] **Add data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +135,7 @@ Feel free to check the [issues page](https://github.com/As1imwe-Mark/Vet_clinic_
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project Give Me a Star
+If you like this project Give us a Star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,9 +144,7 @@ If you like this project Give Me a Star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I will like to thank Microverse for the learning Experience.
-
-I will also like to give credit for the original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) as recomended in the [The Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
+We will like to thank Microverse for the learning Experience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
