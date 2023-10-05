@@ -102,8 +102,9 @@ You can deploy this project using github page deployment.
 - LinkedIn: [@Kehinde-Aminah](https://www.linkedin.com/in/kehinde-aminah-h/)
 
 👤 **Asiimwe Mark**
-
-- GitHub:[As1imwe-Mark](https://github.com/As1imwe-Mark)
+- GitHub: @[As1imwe-Mark](https://github.com/As1imwe-Mark)
+- Twitter:@[markasiimwe](https://twitter.com/MarkAsiimwe?t=fPfXM4CV3OU6gKMNB1RGDA&s=09)
+- LinkedIn:@[Mark Asiimwe](https://www.linkedin.com/in/mark-asiimwe-0ab0611ab)
 
 👤 **Zabi Noori**
 - GitHub: [zabi_Noori](https://github.com/ZabihullahNooriWardak)
