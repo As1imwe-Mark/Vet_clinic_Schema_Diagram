@@ -103,8 +103,7 @@ You can deploy this project using github page deployment.
 
 👤 **Asiimwe Mark**
 
-- GitHub: 
-- LinkedIn: 
+- GitHub:[As1imwe-Mark](https://github.com/As1imwe-Mark)
 
 👤 **Zabi Noori**
 - GitHub: [zabi_Noori](https://github.com/ZabihullahNooriWardak)
