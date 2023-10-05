@@ -1,13 +1,13 @@
 CREATE TABLE patients (
   id INT GENERATED ALWAYS AS IDENTITY,
-  name VARCHAR(100),
+  name VARCHAR(150),
   date_of_birth DATE,
   PRIMARY KEY(id)
 );
 
 CREATE TABLE treatments (
   id INT GENERATED ALWAYS AS IDENTITY,
-  name VARCHAR(100),
+  name VARCHAR(150),
   type VARCHAR(255),
   PRIMARY KEY(id)
 );
@@ -15,7 +15,7 @@ CREATE TABLE treatments (
 CREATE TABLE medical_histories (
   id INT GENERATED ALWAYS AS IDENTITY,
   admitted_at TIMESTAMP,
-  status VARCHAR(100),
+  status VARCHAR(150),
   patient_id INT REFERENCES patients(id),
   PRIMARY KEY(id)
 );
@@ -40,6 +40,7 @@ CREATE TABLE invoice_items (
 );
 
 -- Created a join table for the many-to-many relationship between treatments and medical_histories
+
 CREATE TABLE medical_history_treatments (
   medical_history_id INT,
   treatment_id INT,
@@ -49,6 +50,7 @@ CREATE TABLE medical_history_treatments (
 );
 
 -- Created a join table for the many-to-many relationship between patients and medical_histories
+
 CREATE TABLE patient_medical_histories (
   patient_id INT,
   medical_history_id INT,
@@ -58,6 +60,7 @@ CREATE TABLE patient_medical_histories (
 );
 
 -- Added foreign key indexes for the join tables
+
 CREATE INDEX idx_medical_history_id ON medical_history_treatments(medical_history_id);
 CREATE INDEX idx_treatment_id ON medical_history_treatments(treatment_id);
 CREATE INDEX idx_patient_id ON patient_medical_histories(patient_id);
